@@ -6,6 +6,8 @@ Then we take the rotation that gives the best detection of the body parts (head,
 We extract center of gravity for each ones and apply deterministic rules to detect the name of the movement. \
 We then calculate some quality metrics such as body alignement (alignement of the center of gravity for head, hips and legs), as weel as parallelism (body parallel to the ground).
 
+![alt text](src/frontlever_ex.PNG)
+
 # deploy
 
 - [ ] install virtualbox and an ubuntu image
