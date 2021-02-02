@@ -14,9 +14,9 @@ We then calculate some quality metrics such as body alignement (alignement of th
 
 Currently the model is poorly accurate because it is trained for humans standing. \
 To fix that we applied successive rotation which helped a lot. \
-However if the model doesn't detect legs or arms, which happens quite often for the arms because there are mixed with the bar they are holding, then it will be unable to detect the movement. \
+However if the model doesn't detect legs or arms, which happens quite often for the arms because there are mixed with the bar they are holding, then it will be unable to detect the movement. 
 
-In the future, a new and more elaborate model should be applied to detect more accuratly the body part, even for people not standing on their feet. \
+In the future, a new and more elaborate model should be applied to detect more accuratly the body part, even for people not standing on their feet. 
 
 In the future, a generalization to more calisthenics movement could also be implemented, either by training and runing small ML/DL model on the generated body parts coordinates, or by applying more deterministic rules.
 
