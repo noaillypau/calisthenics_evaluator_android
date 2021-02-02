@@ -93,18 +93,17 @@ class MenuWindow(Screen):
             text_to_show = "This looks like nothing known, please do better."
             self.label_evaluate.text = text_to_show
 
-        
-
-
-if __name__ == "__main__":    
-    class WindowManager(ScreenManager):
-        pass
+ 
+class WindowManager(ScreenManager):
+    pass
     
+
+if __name__ == "__main__":   
     sm = WindowManager()
     sm.add_widget(MenuWindow(name='menu'))
     sm.current = "menu"
-
-
+    
+    
     class MyMainApp(App):
         def build(self):
             return sm
