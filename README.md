@@ -38,3 +38,22 @@ We then calculate some quality metrics such as body alignement (alignement of th
   - [ ] `pip3 install --user --upgrade cython virtualenv`
   - [ ] `sudo apt-get install cython`
   - [ ] `buildozer android debug deploy run`
+  
+# Todo List
+
+- [ ] gui
+  - [ ] Improve ui design
+  - [x] sort file by most recent in the fileChooser
+  - [ ] find a way to show icones for .png and .jpg
+  - [ ] Improve ui design
+  - [ ] Add a video option to evaluate in real time
+  - [ ] Add settings menu on which we can decide if we want to show detected body joints or not on the picture
+- [ ] detector
+  - [ ] test a small improvement by adding more rotations
+  - [ ] test some more advanced model such as smplify-x OR consider training own model on specific movement
+  - [ ] increase number of detect movement (currently 2: full planche and front lever)
+  
+# References
+
+- [ ] pre trained model: https://github.com/misbah4064/human-pose-estimation-opencv
+
