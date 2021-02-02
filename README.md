@@ -1,7 +1,7 @@
 # calisthenics_evaluator_android
 
 This is a small android app that consist on an evaluator of calisthenics mouvement. \
-When a picture is selected, by clicking on `evaluate`, a deep learning model is run on few rotation of the image. \
+When a picture is selected, by clicking on `evaluate`, a trained deep learning model is run on few rotation of the image. \
 Then we take the rotation that gives the best detection of the body parts (head, arms, hips, legs). \
 We extract center of gravity for each ones and apply deterministic rules to detect the name of the movement. \
 We then calculate some quality metrics such as body alignement (alignement of the center of gravity for head, hips and legs), as weel as parallelism (body parallel to the ground).
@@ -9,6 +9,16 @@ We then calculate some quality metrics such as body alignement (alignement of th
 ![alt text](src/frontlever_ex.PNG)
 
 ![alt text](src/fullplanche_ex.PNG)
+
+# flaws
+
+Currently the model is poorly accurate because it is trained for humans standing. \
+To fix that we applied successive rotation which helped a lot. \
+However if the model doesn't detect legs or arms, which happens quite often for the arms because there are mixed with the bar they are holding, then it will be unable to detect the movement. \
+
+In the future, a new and more elaborate model should be applied to detect more accuratly the body part, even for people not standing on their feet. \
+
+In the future, a generalization to more calisthenics movement could also be implemented, either by training and runing small ML/DL model on the generated body parts coordinates, or by applying more deterministic rules.
 
 # deploy
 
