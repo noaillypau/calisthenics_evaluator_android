@@ -14,7 +14,8 @@ We then calculate some quality metrics such as body alignement (alignement of th
 
 Currently the model is poorly accurate because it is trained for humans standing. \
 To fix that we applied successive rotation which helped a lot. \
-However if the model doesn't detect legs or arms, which happens quite often for the arms because there are mixed with the bar they are holding, then it will be unable to detect the movement. 
+However if the model doesn't detect legs or arms, which happens quite often for the arms because there are mixed with the bar they are holding, then it will be unable to detect the movement.  \
+The model also has higher detection rate if the picture is taken with too much distortion, meaning it should be actually taken as net profile instead of from the front, back, top or bottom.
 
 In the future, a new and more elaborate model should be applied to detect more accuratly the body part, even for people not standing on their feet. 
 
