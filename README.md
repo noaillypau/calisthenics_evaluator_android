@@ -8,6 +8,8 @@ We then calculate some quality metrics such as body alignement (alignement of th
 
 ![alt text](src/frontlever_ex.PNG)
 
+![alt text](src/fullplanche_ex.PNG)
+
 # deploy
 
 - [ ] install virtualbox and an ubuntu image
