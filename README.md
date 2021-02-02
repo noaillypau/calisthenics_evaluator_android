@@ -55,5 +55,8 @@ We then calculate some quality metrics such as body alignement (alignement of th
   
 # References
 
-- [ ] pre trained model: https://github.com/misbah4064/human-pose-estimation-opencv
+* pre trained model: https://github.com/misbah4064/human-pose-estimation-opencv
 
+* official kivy doc: https://kivy.org/doc/stable/
+
+* official kivy api reference: https://kivy.org/doc/stable/api-index.html
