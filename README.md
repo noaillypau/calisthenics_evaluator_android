@@ -43,9 +43,9 @@ In the future, a generalization to more calisthenics movement could also be impl
   - [ ] install python 3 `sudo apt-get install python3.8`
   - [ ] install setup tools `sudo apt-get install python3-setuptools`
   - [ ] install buildozer `cd buildozer` > `sudo python3 setup.py install` > `cd ..`
-  - [ ] clone this repo with the main.py file `git clone https://github.com/noaillypau/undercover_game_android`
+  - [ ] clone this repo with the main.py file `git clone https://github.com/noaillypau/calisthenics_evaluator_android`
 - [ ] deploy app
-  - [ ] go to the cloned rdirectory `cd undercover_game_android`
+  - [ ] go to the cloned rdirectory `cd calisthenics_evaluator_android`
   - [ ] init buildozer `buildozer init`
   - [ ] edit the buildozer.spec file, add files needed (ex:pb here for the model loading), edit name of app, add python packages req (cv, scipy, ect), and uncomment the debugging (line 219) if necessary
   - [ ] `sudo apt update`
