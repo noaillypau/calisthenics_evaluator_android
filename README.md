@@ -54,6 +54,14 @@ In the future, a generalization to more calisthenics movement could also be impl
   - [ ] `sudo apt-get install cython`
   - [ ] `buildozer android debug deploy run`
   
+# Spec file and debug
+
+- [ ] add numpy, matplotlib, scipy and opencv (instead of opencv-python which seems to generate bugs at launch) to the package used
+- [ ] add pb extension to the files that must be added (it is the DL model)
+- [ ] if app crash use `buildozer android logcat` once app is deploy to see the logs
+
+  
+  
 # Todo List
 
 - [ ] gui
